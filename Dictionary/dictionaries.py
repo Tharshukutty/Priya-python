@@ -139,32 +139,19 @@
 #     for k in j:
 #         print(k+":",j[k])
 
+# count the character of the string
 
-#  count characters
+# x=input("enter a string:")
+# char_count={}
+# for char in x:
+#     if char in char_count:
+#         char_count[char]+=1
+#     else:
+#        char_count[char]=1
 
-str=input("enter a string:")
-char_count={}
-
-index=0
-while index<len(str):
-    character=str[index]
-
-    found= False
-
-for key in str:
-    if key==character:
-        found=True
-        break
-
-    if found:
-        char_count[character]+=1
-    else:
-        char_count[character]=1
+# print(char_count)
 
 
-    index+=1
-       
-print(char_count)
 
 
 
