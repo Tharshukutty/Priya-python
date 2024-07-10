@@ -16,14 +16,14 @@
 
 
 # add string in tuple without list constructor
-my_tuple=("priya","tharshini","ashwin")
-list=[]
-for i in my_tuple:
-    list.append(i)
-    list.append("ashu")
-    list.append("malar")
-    list.append("arul")
-    list.append("tharshu")
-new_tuple=tuple(list)
-print(new_tuple)
+# my_tuple=("priya","tharshini","ashwin")
+# list=[]
+# for i in my_tuple:
+#     list.append(i)
+#     list.append("ashu")
+#     list.append("malar")
+#     list.append("arul")
+#     list.append("tharshu")
+# new_tuple=tuple(list)
+# print(new_tuple)
 
