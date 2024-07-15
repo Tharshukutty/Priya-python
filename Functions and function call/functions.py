@@ -182,8 +182,30 @@
 
 # I/P - character, O/P - ascii values / alt keyword 
 
-def get_ascii_value(char):
-    return ord(char)
+# def get_ascii_value(char):
+#     return ord(char)
 
-character=input("enter a character:")
-print(get_ascii_value(character))
+# character=input("enter a character:")
+# print(get_ascii_value(character))
+
+
+
+# ********************************************************************************************************************************************
+# function task
+
+# string name "Bob"
+# def helo_name(name):
+#     return f"helo{name}!"
+# print(helo_name('  Bob'))
+# print(helo_name('  alice'))
+# print(helo_name('  x!'))
+# print(helo_name('  tharshu'))
+
+
+# get str a & b
+# def make_abba(a, b):
+#     return f"{a}{b}{b}{a}"
+
+# print(make_abba('Hi', 'Bye'))      
+# print(make_abba('Yo', 'Alice'))    
+# print(make_abba('What', 'Up'))   
