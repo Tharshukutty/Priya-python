@@ -13,7 +13,7 @@ import geometry as g
 
 # print(g.triangle_area(4,5))
 
-print(g.add(2,3))
-print(g.sub(8,7))
-print(g.mul(12,2))
-print(g.div(25,10))
+# print(g.add(2,3))
+# print(g.sub(8,7))
+# print(g.mul(12,2))
+# print(g.div(25,10))
