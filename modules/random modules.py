@@ -60,32 +60,32 @@ import random
 # **************************************************PUZZLE TASK*********************************************************
 
 # ^^^^^^^^^^^^^***WELCOME TO CHOCOLATE GAME***^^^^^^^^^^^^^^^^^^^^^
-import random
-def select_random_chocolate():
-    chocolates=["dairy milk","kit-kat","munch","fivestar","milkybar","galaxy","perk","snickers","amul chocolate","dark chocolate","tictac","melody","nestle chocolate"]
+# import random
+# def select_random_chocolate():
+#     chocolates=["dairy milk","kit-kat","munch","fivestar","milkybar","galaxy","perk","snickers","amul chocolate","dark chocolate","tictac","melody","nestle chocolate"]
 
-    return random.choice(chocolates),chocolates
+#     return random.choice(chocolates),chocolates
 
-def game():
-    selected_chocolate, chocolates = select_random_chocolate()
-    print("chocolate box:")
+# def game():
+#     selected_chocolate, chocolates = select_random_chocolate()
+#     print("CHOCOLATE BOX")
     
-    for chocolate in chocolates:
-        print(chocolate)
+#     for chocolate in chocolates:
+#         print(chocolate)
 
-    user_choice =input("select a chocolate:")
-    if user_choice == selected_chocolate:
-        print(f"Congratulations! You selected correct chocolate:{selected_chocolate}")
-        play_again=input("Do you want to play again? (yes/ no):")
-        if play_again.lower()=="yes":
-            game()
-        else:
-            print("Thanks for playing")
-    else:
-        print(f"Wrong choice! the selected chocolate was: {selected_chocolate}.try again")
-        game()
+#     user_choice =input("select a chocolate:")
+#     if user_choice == selected_chocolate:
+#         print(f"Congratulations! You selected correct chocolate:{selected_chocolate}")
+#         play_again=input("Do you want to play again? (yes/ no):")
+#         if play_again.lower()=="yes":
+#             game()
+#         else:
+#             print("Thanks for playing")
+#     else:
+#         print(f"Wrong choice! the selected chocolate was: {selected_chocolate}.try again")
+#         game()
 
-game()
+# game()
 
 
 
