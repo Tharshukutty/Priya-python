@@ -46,15 +46,28 @@ import re
 #     print("pls enter a valid email_id")
 
 
+# for finding mobile number
+# phone_number = input("enter a number:")
+# num=    r'^\d{10}$'
+# if re.search(num,phone_number):
+#     print(f"mobile_number:{phone_number}")
+# else:
+#     print("pls enter a valid number")
+
+
+# for finding age
+# age =input("enter a age:")
+# pattern =r'^\S[0-9]{0,1}$'
+# if re.search(pattern,age):
+#     print(f"Age: {age}")
+# else:
+#     print("pls enter a valid age")
 
 
 
-
-
-
-
-
-
+# ************************************************************ TASK-3 ***********************************************************************************
+import re
+Email= "priyaarul2303@gmail.com"
 
 
 
